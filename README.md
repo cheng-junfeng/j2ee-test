@@ -17,8 +17,7 @@
 - net stop mysql57  停止服务
 - mysqld --skip-grant-tables   跳过认证
 - mysqladmin -u root flush-privileges password "123456"  设置新密码
-- C:\Program Files\MySQL\MySQL Server 5.7\my.ini  出现找不到datab时，修改此文件
-- # Path to the database root                    
+- C:\Program Files\MySQL\MySQL Server 5.7\my.ini  出现找不到datab时，修改此文件                
 - datadir="C:\ProgramData\MySQL\MySQL Server 5.5\data\"   改为自己的目录
 
 
